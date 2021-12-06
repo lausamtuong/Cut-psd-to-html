@@ -1,0 +1,40 @@
+$primary-color:#ffc87a;
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 0 20px;
+    max-width: 1210px;
+
+}
+.header{
+    padding-top: 4rem;
+    &__iner{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+
+    }
+    &__menu{
+        &-list{
+        display: flex;
+        }
+        &-item{
+            margin-left: 5rem;
+            &:last-child{
+                margin-left: 7rem;
+
+            }
+        }
+        &-link{
+            font-size: 16px;
+        }
+    }
+}
+.logo{
+font-size: 2rem;
+font-weight: 600;
+&__text{
+    color:$primary-color
+}
+}

@@ -1,0 +1,59 @@
+$primary-color:#ffc87a;
+$text-color:#551a8b;
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 0 20px;
+    max-width: 1210px;
+    margin: 0 auto;
+
+}
+.header{
+    padding-top: 4rem;
+    &__iner{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+
+    }
+    &__menu{
+        &-list{
+        display: flex;
+        align-items: center;
+        }
+        &-item{
+            margin-left: 5rem;
+            &:last-child{
+                margin-left: 6rem;
+            }
+        }
+        &-link{
+            font-size: 16px;
+            &:hover{
+                color:$primary-color;
+                transition:  0.3s linear;
+            }
+        }
+        &-login{
+            padding: 10px 15px;
+            display:inline-block;
+            border:2px solid;
+            border-radius: 100rem;
+        }
+    }
+}
+.logo{
+font-size: 2rem;
+font-weight: 600;
+&:focus{
+    color: $text-color;
+}
+&__text{
+    color:$primary-color
+}
+}
+.banner{
+    padding-top:15rem;
+
+}

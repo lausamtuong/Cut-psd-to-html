@@ -1,0 +1,24 @@
+$primary-color:#ffc87a;
+a{}
+.header{
+    padding-top: 4rem;
+    &__iner{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+
+    }
+    &__menu{
+        &-list{
+        display: flex;
+        }
+    }
+}
+.logo{
+font-size: 2rem;
+font-weight: 600;
+text-decoration: none;
+&__text{
+    color:$primary-color
+}
+}
